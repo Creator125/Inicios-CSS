@@ -1,0 +1,16 @@
+/*Usando la convesion Hexadecimal*/
+.color{
+    color: #00f;
+    color: #ff0; /*OMG ¡Ya se como crear amarillo!*/
+    color: #eee;
+}
+
+/*Usando la convesion Decima*/
+.color{
+    color: #ff0000;
+}
+
+/*Usando la convesion RGB*/
+.color{
+    color: rgb(0, 255, 255);
+}
