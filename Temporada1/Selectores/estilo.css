@@ -1,0 +1,33 @@
+#titulo{
+    color: crimson;
+}
+
+/* p{
+    color: indigo;
+} */
+
+/* .texto{
+    color: indigo;
+} */
+
+p.segundario{
+    color: darkcyan;
+}
+
+p.texto{
+    color: indigo;
+}
+
+div p{
+    color: chocolate;
+}
+
+div h2, div h3{
+    color: darkblue;
+}
+
+/*Selector universal*/
+*{
+    font-size: 25px;
+    color: black;
+}
