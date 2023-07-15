@@ -1,0 +1,7 @@
+.text{
+    border: 5px orangered outset;
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-radius: 10px;
+    border-width: 2rem;
+}
