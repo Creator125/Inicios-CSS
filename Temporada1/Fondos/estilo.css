@@ -1,0 +1,14 @@
+#fondo{
+    height: 400px;
+    background-color: aquamarine;
+    background-color: rgba(255, 0, 0, 0.3);
+    /* opacity: 0.3; */
+    background-image: url('yo-cuadros.jpg');
+    background-size: auto;
+    background-size: cover;
+    /* background-size: contain; */
+    background-size: 100px 100px;
+    background-repeat: repeat-y;
+    background-position: right;
+    background: #0ff url('yo-cuadros.jpg') repeat-y center bottom / 200px 200px;
+}
