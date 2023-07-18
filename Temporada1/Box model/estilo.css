@@ -1,0 +1,15 @@
+*{
+    font-size: 20px;
+}
+
+.margen{
+    background-color: #ffff00;
+    /* margin: 15px 30px 25px 40px; */
+    margin: 5px;
+    /* padding: 20px 40px 50px 16px; */
+    padding: 30px 10px 20px;
+    border: solid 1px black;
+    height: 200px;
+    width: 50px;
+    overflow: scroll;
+}
