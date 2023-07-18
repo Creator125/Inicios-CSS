@@ -1,0 +1,20 @@
+
+.contenedor{
+    height: 200px;
+}
+
+.left{
+    float: left;
+    width: 300px;
+}
+
+.right{
+    float: right;
+}
+
+.column{
+    border: solid 1px #ddd;
+    margin: 0 15px;
+    padding: 10px 15px;
+    width: 33.3%;
+}
