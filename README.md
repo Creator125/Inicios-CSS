@@ -114,4 +114,6 @@ Estas son practicas autodidactas en el lenguaje de estilo CSS, cuyo propósito e
 
 ## Cursos o videos
 
-- Temporada 1 : https://www.youtube.com/watch?v=wZniZEbPAzk
+- Temporada 1: https://www.youtube.com/watch?v=wZniZEbPAzk
+
+- Temporada 2: https://www.youtube.com/playlist?list=PLvRPaExkZHFkQoOMPTU4pFSz6ednD_vGE
