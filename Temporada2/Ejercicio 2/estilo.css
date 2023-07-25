@@ -1,0 +1,119 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    background-color: #b9dfff;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+#post{
+    background-color: #ffffff;
+    margin: 100px auto;
+    padding: 15px;
+    width: 480px;
+}
+
+#post #header div{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#post #header #logo{
+    padding: 0 10px 10px 0;
+}
+
+#post #header #pofile-info div{
+    display: block;
+}
+
+#post #header #pofile-info:hover{
+    text-decoration: underline;
+}
+
+#post #header #pofile-info #pofile-name{
+    margin: 5px 0 5px 0;
+}
+
+#post #header #pofile-info #pofile-name a{
+    font-weight: bolder;
+    color: #2902d6;
+}
+
+#post #header #pofile-info #post-time a{
+    color:#666666
+}
+
+#post #info-post{
+    font-size: 0.9em;
+}
+
+#post #info-post a{
+    color: black;
+}
+
+#post #info-post image{
+    margin-bottom: -5px;
+}
+
+#post #info-post #content{
+    border: solid 2px #ddd;
+    padding: 10px;
+}
+
+#post #info-post #content h2{
+    margin: 0;
+}
+
+#post #info-post #content #footer{
+    color: #bbb;
+    margin: 0;
+    padding: 0;
+}
+
+#post #social{
+    color: #999;
+    margin-top: 10px;
+}
+
+#post #social a{
+    color: #999;
+}
+
+#post #social a:hover{
+    text-decoration: underline;
+}
+
+#post #social #estadisticas #likes img{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#post #social #estadisticas div{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+
+#post #social #estadisticas #comments{
+    text-align: right;
+    font-size: 0.9em;
+}
+
+#post #social #actions{
+    border-top: solid 1px #ddd;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+#post #social #actions a{
+    font-weight: bold;
+    padding: 10px 30px 10px 0;
+}
