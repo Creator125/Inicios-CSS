@@ -1,0 +1,37 @@
+body{
+    background: url(img/fondo.jpg) no-repeat center ;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-image img{
+    width: 500px;
+}
+
+h1{
+    text-align: center;
+    border-bottom: dotted 1px #ee0;
+}
+
+.main-container{
+    width: 500px;
+    text-align: center;
+}
+
+#content{
+    background-color: aliceblue;
+}
+
+.descripcion{
+    color: #161616;
+    font-size: 0.181;
+}
+
+a{
+    text-decoration: none;
+    background-color: #7fffd4;
+    padding: 10px;
+}
+
+boton-conten{
+    text-align: center;
+}
