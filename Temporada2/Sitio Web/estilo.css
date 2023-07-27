@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.center-align{
+    margin: 0 auto;
+    width: 1100px;
+}
+
+#intro-container{
+    background-color: #2BA0C3;
+    color: white;
+    padding-top: 100px;
+}
+
+#intro-container menu div{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#intro-container menu #logo{
+    width: 19%;
+}
+
+#intro-container menu #menu-lista{
+    width: 79%;
+    text-align: right;
+}
+
+#intro-container menu #menu-lista ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+#intro-container menu #menu-lista ul li a{
+    color: #dddddd;
+    text-decoration: none;
+}
+
+#intro-container menu #menu-lista ul li a:hover{
+    color: white;
+    text-decoration: underline;
+}

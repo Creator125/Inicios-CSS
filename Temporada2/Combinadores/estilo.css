@@ -1,0 +1,42 @@
+body{
+    font-family: Arial; 
+    background-color: #E2D3ED;
+}
+
+#container{
+    margin: auto;
+    width: 300px;
+}
+
+.opcion div{
+    line-height: 20px;
+}
+
+.opcion > div{
+    padding: 10px;
+    background-color: #007c53;
+    color: #ffffff;
+}
+
+.opcion > div + div{
+    padding: 0;
+}
+
+.opcion > div + div img ~ div{
+    background-color: #d1fff0;
+    color: #000000;
+    padding: 10px;
+}
+
+.opcion > div img + div{
+    font-size: 1.40em;
+    font-weight: bold;
+}
+
+.opcion > div + div{
+    display: none;
+}
+
+.opcion > div:hover + div{
+    display: block;
+}
