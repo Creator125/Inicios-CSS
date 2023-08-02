@@ -1,6 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span{
+    
 }
 
 .center-align{
@@ -8,10 +13,93 @@
     width: 1100px;
 }
 
+.color-black{
+    color: black;
+}
+
+.color-white{
+    color: #ffffff;
+}
+
+.section-columns #image-bg{
+    background: url(img/Rey_caballo.jpg) center no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.section-columns > div{
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+}
+
+.section-columns h2{
+    font-size: 72px;
+}
+
 #intro-container{
     background-color: #2BA0C3;
-    color: white;
     padding-top: 100px;
+    padding-left: 95px;
+}
+
+#intro-container .section-columns h2{
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.section-columns h3{
+    font-size: 26px;
+    font-weight: lighter;
+    line-height: 40px;
+}
+
+.section-columns p{
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+
+.rectangle{
+    height: 100px;
+    margin-top: -50px;
+}
+
+.bg-white{
+    background-color: #ffffff;
+}
+
+.skew-left{
+    transform: skewY(-4deg);
+}
+
+.btn{
+    border: solid 1px;
+    padding: 20px 40px;
+    text-decoration: none;
+}
+
+.btn-first{
+    border-color: white;
+    color: white;
+}
+
+.btn-secons{
+    border-color: #000000;
+    color: #000000;
+}
+
+.btn-first:hover{
+    border-color: #fcf700;
+    color: #000000;
+    background-color: #fcf700;
+}
+
+.btn-secons:hover{
+    border-color: #00a0d1;
+    color: #000000;
+    background-color: #00f5f5;
 }
 
 #intro-container menu div{
