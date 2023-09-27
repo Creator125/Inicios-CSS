@@ -5,7 +5,18 @@
 }
 
 span{
-    
+    position: relative;
+}
+
+span::after{
+    background-color: #eeff00;
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    z-index: -1;
 }
 
 .center-align{
@@ -27,14 +38,55 @@ span{
     height: 500px;
 }
 
+.section-columns #image-bg-02, #image-bg-03, #image-bg-04, #image-bg-05{
+    background: url(img/img02.jpg) center no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 500px;
+}
+
+#image-bg-03{
+    background-image: url(img/img03.jpg);
+}
+
+#image-bg-04{
+    background-image: url(img/img04.jpg);
+}
+
+#image-bg-05{
+    background-image: url(img/img05.jpg);
+}
+
+#footer{
+    padding-top: 150px;
+    margin-top: -50px;
+    height: 550px;
+    background: url(img/footer.png) center bottom no-repeat;
+    background-size: 100%;
+}
+
+#footer h3{
+    color: #252525;
+    padding-top: 20px;
+}
+
 .section-columns > div{
     display: inline-block;
     vertical-align: top;
     width: 49%;
 }
 
+#footer p{
+    color: #303030;
+    padding-bottom: 30px;
+}
+
 .section-columns h2{
     font-size: 72px;
+}
+
+.section-columns #blo{
+    height: 600px;
 }
 
 #intro-container{
@@ -45,7 +97,7 @@ span{
 
 #intro-container .section-columns h2{
     padding-top: 120px;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
 }
 
 .section-columns h3{
@@ -61,8 +113,13 @@ span{
     padding-bottom: 10px;
 }
 
+#work, #work02, #work03, #work04{
+    margin-top: -56px;
+    padding-top: 150px;
+}
+
 .rectangle{
-    height: 100px;
+    height: 90px;
     margin-top: -50px;
 }
 
@@ -70,14 +127,31 @@ span{
     background-color: #ffffff;
 }
 
+.bg-gray{
+    background-color: #696969;
+}
+
+.bg-blue{
+    background-color: #00b5ec;
+}
+
+.bg-black{
+    background-color: #000000
+}
+
 .skew-left{
     transform: skewY(-4deg);
+}
+
+.skew-righ{
+    transform: skewY(4deg);
 }
 
 .btn{
     border: solid 1px;
     padding: 20px 40px;
     text-decoration: none;
+    margin-right: 10px;
 }
 
 .btn-first{
@@ -102,31 +176,31 @@ span{
     background-color: #00f5f5;
 }
 
-#intro-container menu div{
+#intro-container nav div{
     display: inline-block;
     vertical-align: top;
 }
 
-#intro-container menu #logo{
+#intro-container nav #logo{
     width: 19%;
 }
 
-#intro-container menu #menu-lista{
+#intro-container nav #menu-lista{
     width: 79%;
     text-align: right;
 }
 
-#intro-container menu #menu-lista ul li{
+#intro-container nav #menu-lista ul li{
     display: inline-block;
     list-style: none;
 }
 
-#intro-container menu #menu-lista ul li a{
+#intro-container nav #menu-lista ul li a{
     color: #dddddd;
     text-decoration: none;
 }
 
-#intro-container menu #menu-lista ul li a:hover{
+#intro-container nav #menu-lista ul li a:hover{
     color: white;
     text-decoration: underline;
 }
