@@ -1,0 +1,15 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#main-container{
+    background-color: #00ffff;
+    width: 100vw;
+    height: 100vh;
+}
+
+#second-container{
+    background-color: #8a2be2;
+    height: 100vh;
+}
